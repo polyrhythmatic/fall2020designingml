@@ -5,7 +5,7 @@ permalink: /classes
 
 # Classes
 
-## Class 1 - 8/30
+## Class 1 - 10/30
 
 Introductory class. We began by having everyone answer the following questions:
 
