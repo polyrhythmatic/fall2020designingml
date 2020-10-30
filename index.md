@@ -17,23 +17,15 @@ This course will introduce students to the subject of machine learning and its a
 
 Please note - course outline is subject to change during the semester. Please pay attention to emails and check the site regularly for updates.
 
-| Week | Date  | Topic                                                                     |
-| ---- |:-----:| ------------------------------------------------------------------------- |
-| 1    | 8/30  | Introduction and overview, syllabus handed out                            |
-| 2    | 9/6   | Python overview                                                           |
-| 3    | 9/13  | Essentials of ML and exploring in N dimensions                            |
-| 4    | 9/20  | Deep learning - history and current applications (rescheduled to 9/24)                          |
-| 5    | 9/27  | Datasets and scraping                                                     |
-| 6    | 10/3  | Roll your own Neural Network (9:30AM at NEW INC )                         |
-| 7    | 10/11 | Feature extraction and exploration methodologies, introducing the midterm |
-| 8    | 10/18 | Guest lecture and work session                                            |
-| 9    | 10/25 | Midterm presentations                                                     |
-| 10   | 11/1  | Designing and engineering audio explorations                              |
-| 11   | 11/8  | Using WebGL for interactive web spaces                                    |
-| 12   | 11/15 | Semantic organization of text                                             |
-| 13   | 11/22 | Creating user interfaces with React                                       |
-| 14   | 12/6  | Work session                                                              |
-| 15   | 12/13 | Final presentations                                                       |
+| Week | Date  | Topic                                                                        |
+| ---- |:-----:| ---------------------------------------------------------------------------- |
+| 1    | 10/30 | Introduction and overview, syllabus handed out                               |
+| 2    | 11/6  | Exploring in N dimensions, Python overview and essentials of ML              |
+| 3    | 11/13 | Perceptrons, deep learning, feature extraction and exploration methodologies |
+| 4    | 11/20 | Scraping data with Python, introducing the final                             |
+| 5    | 12/4  | Semantic organization of text, searching with recommendation engines, final  |
+| 6    | 12/11 | Using WebGL for interactive web spaces, creating user interfaces with React  |
+| 7    | 12/18 | Final Presentations                                                          |
 
 
 ## Learning Outcomes
@@ -58,8 +50,7 @@ This course borrows from many sources, but especially the following syllabi
 
 ## Assessable Tasks
 
-* Project #1 (Midterm), Due 10/25
-* Project #2 (Final), Due 12/13
+* Project #1 (Final), Due 12/18
 
 Readings will be assigned and simple but graded responses will be required. This is part of your active participation grade.
 
@@ -115,9 +106,8 @@ The Making Center is a constellation of shops, labs, and open workspaces that ar
 Late work will be graded with a 5 point deduction for each day it is late.
 
 
-* Attendance and participation 30%
-* Midterm 30%
-* Final 40%
+* Attendance and participation 50%
+* Final 50%
 * Total 100%
 
 Grades
