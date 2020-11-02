@@ -48,9 +48,26 @@ We looked at the following references (the first six do not use ML):
 * [Font Map](https://experiments.withgoogle.com/font-map)
 * [The Infinite Drum Machine](https://experiments.withgoogle.com/drum-machine)
 * [Bird Sounds](https://experiments.withgoogle.com/bird-sounds)
-* [Boil the Frog](http://static.echonest.com/BoilTheFrog/)
+* [Boil the Frog](http://boilthefrog.playlistmachinery.com/)
 * [Every Noise at Once](http://everynoise.com/engenremap.html)
 * [X Degrees of Separation](https://artsexperiments.withgoogle.com/xdegrees/8gHu5Z5RF4BsNg/BgHD_Fxb-V_K3A)
 * [NASA’s Visual Universe](https://artsexperiments.withgoogle.com/nasasvisualuniverse)
 * [NASA’s Visual Universe](https://experiments.withgoogle.com/business-of-fashion)
 * [Curator Table](https://artsexperiments.withgoogle.com/curatortable/#0.00,1607.63,4473.41,0.00,-1.00,0.00)
+
+And more listed [here](https://www.are.na/seth-kranzler/design-and-machine-learning-references)
+
+
+We also learned how to use the command line to do simple tasks
+
+[Quick guide here](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line)
+
+Import commands to be familiar with:
+* pwd
+* ls
+* cd
+* mkdir
+* rmdir
+* rm
+* mv
+* cp
