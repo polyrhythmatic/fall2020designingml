@@ -7,6 +7,22 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Week 2 (due 11/13)
+* Read
+  * [The Myth of AI by Jaron Lanier](https://www.edge.org/conversation/jaron_lanier-the-myth-of-ai) (just read article not comments or video)
+  * [More States Opting To ‘Robo-Grade’ Student Essays By Computer](https://www.npr.org/2018/06/30/624373367/more-states-opting-to-robo-grade-student-essays-by-computer)
+  * [Don’t Call AI “Magic” by M.C. Elish](https://points.datasociety.net/dont-call-ai-magic-142da16db408)
+
+* Code
+  * Review the in class jupyter notebook
+  * If you are having a hard time with Python, try doing all the "Learn the Basics" section at [learnpython.org](https://www.learnpython.org/)
+  * I recommend also picking up Learn Python 3 the Hard Way if you like learning from printed books
+
+* Watch (at least one)
+  * [Vectors, what even are they?](https://www.youtube.com/watch?v=fNk_zzaMoSs)
+  * [Vectors - The Nature of Code](https://www.youtube.com/watch?v=mWJkvxQXIa8)
+  * [Vector Math - The Nature of Code](https://www.youtube.com/watch?v=s6b1_3bNCxk)
+  * [Vector Math II - The Nature of Code](https://www.youtube.com/watch?v=uHusbFmq-4I)
 
 ## Week 1 (due 2/6)
 * Read

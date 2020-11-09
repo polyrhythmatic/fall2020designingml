@@ -5,6 +5,74 @@ permalink: /classes
 
 # Classes
 
+## Class 2 - 11/6
+
+What is scripting?
+
+* A scripting or script language is a programming language for a special run-time environment that automates the execution of tasks; the tasks could alternatively be executed one-by-one by a human operator. Scripting languages are often interpreted. - Wikipedia
+
+Python is a scripting language that we will be using in this class. It is highly versatile, high-level, general-purpose programming language that is quickly becoming one of the most popular languages.
+
+Using the terminal, we installed [Homebrew](https://brew.sh/)
+
+First, make sure you have Xcode command-line tools installed. Note - this is *not* the Xcode editor. These are separate tools that run from your command line. Run the commands below (without the `$` at the beginning of the line):
+
+```console
+$ xcode-select --install
+```
+
+Next, we install Homebrew by running the following command:
+
+```console
+$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Run the following command once you’re done to ensure Homebrew is installed and working properly:
+
+```console
+$ brew doctor
+```
+
+Next, we install Python 
+
+```console
+$ brew install python
+```
+
+Check your install with the following command
+
+```console
+$ python --version
+```
+
+It should say report a version of python 3 or higher
+
+Next we can use pip, pythons package manager, to install jupyter notebook and other dependencies:
+
+```console
+$ pip3 install jupyterlab
+$ pip3 install matplotlib
+```
+
+We then run the command below to open a jupyter notebook. Make sure you are in the correct directory when you run this command.
+
+```console
+$ jupyter notebook
+```
+
+You can review the in class exercises we did here:
+
+* [Intro to Python](https://github.com/channelstudio/fall2029designingml/blob/master/notebooks/Intro%20to%20Python.ipynb)
+
+Some recommended resources:
+* [learnpython.org](https://www.learnpython.org/)
+* [Codecademy](https://www.codecademy.com/learn/learn-python-3)
+* [Freecodecamp](https://guide.freecodecamp.org/python/)
+* Learn Python 3 the Hard Way (book)
+
+* [A good post on whitespace for those who are curious](https://stackoverflow.com/questions/13884499/what-is-python-whitespace-and-how-does-it-work)
+* [Another good post on scoping for index variables - or why "fruit" persisted outside the scope of our for loop](https://eli.thegreenplace.net/2015/the-scope-of-index-variables-in-pythons-for-loops/)
+
 ## Class 1 - 10/30
 
 Introductory class. We began by having everyone answer the following questions:
