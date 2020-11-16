@@ -7,6 +7,22 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Week 3 (due 11/20)
+
+* Read
+  * [Anatomy of an AI System](https://anatomyof.ai/)
+  * [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/)
+
+* Watch (optional)
+  * [Vectors, what even are they?](https://www.youtube.com/watch?v=fNk_zzaMoSs)
+  * [Vectors - The Nature of Code](https://www.youtube.com/watch?v=mWJkvxQXIa8)
+  * [Vector Math - The Nature of Code](https://www.youtube.com/watch?v=s6b1_3bNCxk)
+  * [Vector Math II - The Nature of Code](https://www.youtube.com/watch?v=uHusbFmq-4I)
+
+* Code
+  * Review the in class jupyter notebook
+  * Try implementing your own classifier using one of the other [Scikit learn toy datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets). Google around for ideas. This will not be graded or collected.
+
 ## Week 2 (due 11/13)
 * Read
   * [The Myth of AI by Jaron Lanier](https://www.edge.org/conversation/jaron_lanier-the-myth-of-ai) (just read article not comments or video)
