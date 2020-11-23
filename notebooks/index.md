@@ -9,13 +9,13 @@ permalink: /notebooks
 
 * [Week 3 - Numpy, Pandas, and Classification](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Numpy%2C%20Pandas%2C%20and%20Classification.ipynb)
 
-<!-- * [Week 4 - Perceptrons](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Perceptrons.ipynb) -->
+* [Week 4 - Perceptrons](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Perceptrons.ipynb)
 
-<!-- * [Week 5 - Scraping](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Scraping.ipynb) -->
+* [Week 4 - Multilayer Perceptron](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Multilayer%20Perceptron.ipynb)
 
-<!-- * [Week 6 - Multilayer Perceptron](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Multilayer%20Perceptron.ipynb) -->
+* [Week 4 - Image Sorting](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Image%20Sorting.ipynb)
 
-<!-- * [Week 7 - Image Sorting](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Image%20Sorting.ipynb) -->
+* [Week 4 - Scraping](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Scraping.ipynb)
 
 <!-- * [Week 10 - Audio](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Audio.ipynb) -->
 

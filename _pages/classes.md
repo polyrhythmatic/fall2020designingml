@@ -5,6 +5,184 @@ permalink: /classes
 
 # Classes
 
+
+## Class 4 - 11/20
+
+## Feature extraction and exploration methodologies
+
+What is feature extraction?
+
+* In a multi layer neural network, the final layer is known as the softmax
+* It takes a list of numbers from the network and “squashes” them into probabilities
+* The layer before this final layer is known as the logits, or feature vector
+* This is the “fingerprint” of the image, and can be used to compare images
+
+KMeans Clustering
+
+* KMeans clustering is an unsupervised machine learning method that allows us to "automatically" find clusters of similar data points. It requires that we know how many clusters we want ahead of time (this is our "K" value). 
+
+* We can determine the optimal "K" value using the [elbow method](https://blog.cambridgespark.com/how-to-determine-the-optimal-number-of-clusters-for-k-means-clustering-14f27070048f) - does not necessarily apply to the work in this class
+
+UMAP
+
+* UMAP is a new dimensionality reduction method that outperforms t-SNE - the previous SOTA for dimensionality reduction and visualization
+
+* Dimensionality reduction is about learning the "latent" features in your data
+
+* A lot of the features are redundant or can be condensed
+
+* For example - mnist has 784 dimension, we shouldn't need this many points to represent simple digits
+
+Additional resources:
+
+* Good in-depth explanations of feature extraction [here](https://observablehq.com/@nsthorat/how-to-build-a-teachable-machine-with-tensorflow-js) and [here](https://github.com/ml4a/ml4a-guides/blob/master/notebooks/image-search.ipynb)
+* [How KMeans clustering works](https://www.youtube.com/watch?v=4b5d3muPQmA)
+* [A very mathy discussion about UMAP](https://youtu.be/nq6iPZVUxZU)
+* [UMAP](https://umap-learn.readthedocs.io/en/latest/)
+* [If you're curious about t-SNE](https://distill.pub/2016/misread-tsne/)
+* [Rasterfairy](https://github.com/Quasimondo/RasterFairy)
+
+## Class 4 - supplemental
+
+## Multilayer Perceptrons and Gradient Descent
+
+Plain vanilla aka multilayer perceptron
+
+We are going to use tensorflow 2.0
+
+mnist :
+28 x 28 numbers - 784 total numbers
+
+each one holds the grayscale value of that pixel (0 - 1)
+
+general structure of the network:
+
+input - > hidden layer -> output
+
+so how does this work?
+
+when the network sees some specific features, certain parts of it activate in response
+
+just like our perceptron, we have weights for each connection
+
+we take the weighted sum, and then calculate our activation. We want our activations to be between 0 and 1. In order to achieve this, we use the sigmoid function : 1 / (1 + e^-x). So the activation of the layer is a measure of how positive the weighted sum is.
+
+Stochastic Gradient Descent:
+
+* an optimization algorithm used to train machine learning algorithms, most notably artificial neural networks used in deep learning
+
+* gradient refers to the calculation of an error gradient, or the "slope of error" and descent refers to moving down along that slope towards some minumum level of error
+
+* we define some 'cost function' - a value that represents how "wrong" the network is with respect to it's weights
+
+* instead of thinking of a massive function with tons of variables, we can consider one single function (inverted parabola) C(w)
+
+* how do we find a weight value such that it is a minumum of this function? That's pretty easy for a function with just a few variables but with 40k variables, its a very difficult problem
+
+* instead, we start at any old point and determine which direction we should move
+
+* we calculate the slope of that function and use that to determine which direction to move
+
+* we then take a bunch of small steps in that direction during each batch
+
+Some terminology:
+
+* sample - a single row of data that is fed into the algorithm and an output that is used to compare to the prediction. a training set consists of many samples
+
+* batch size - a hyperparameter that defines the number of samples to work through before updating the internal model parameters
+
+* epoch - hyperparameter that defines the number of times the algorithm will work through an entire dataset
+
+* SGD - stochastic gradient descent, described above
+
+Additional resources:
+
+* [But what is a Neural Network? - Deep learning, chapter 1](https://youtu.be/aircAruvnKk)
+
+* [Gradient descent, how neural networks learn - Deep learning, chapter 2](https://youtu.be/IHZwWFHWa-w)
+
+* [NOC 10.4: Neural Networks: Multilayer Perceptron Part 1 - The Nature of Code](https://youtu.be/u5GAVdLQyIg)
+
+* [NOC 10.5: Neural Networks: Multilayer Perceptron Part 2 - The Nature of Code](https://youtu.be/IlmNhFxre0w)
+
+* [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
+
+* [Introduction to Multilayer Neural Networks with TensorFlow’s Keras API](https://towardsdatascience.com/introduction-to-multilayer-neural-networks-with-tensorflows-keras-api-abf4f813959)
+
+* [ml4a Demo: MNIST input](https://ml4a.github.io/demos/f_mnist_input/) - this should clarify the difference between input and first layer
+
+* [ml4a Demo: MNIST forward pass](https://ml4a.github.io/demos/forward_pass_mnist/) - try refreshing and look at the probability update
+
+* [Jay Alamar - A Visual And Interactive Look at Basic Neural Network Math](http://jalammar.github.io/feedforward-neural-networks-visual-interactive/)
+
+## Perceptrons
+
+Earlier we covered machine learning such as linear regression and KNN.
+
+Supervised Machine Learning is all about ‘learning’ a function given a training set of examples.
+
+Machine learning methods should derive a function that can generalize well to inputs not in the training set, since then we can actually apply it to inputs for which we do not have an output.
+
+In this class we are going to cover the simplest model of an artificial neural network out there.
+
+What is an artificial neural network (ANN)? What is a perceptron?
+
+These all started as attempts mathematically model the neuron. The question generally was - what kind of computational systems can be made that are inspired by the biological neuron?
+
+The perceptron is a form of supervised learning that can differentiate between linearly separable datasets.
+
+Further material:
+
+Watch:
+* [10.1: Introduction to Neural Networks - The Nature of Code](https://youtu.be/XJ7HLz9VYz0)
+* [10.2: Neural Networks: Perceptron Part 1 - The Nature of Code (first 12 minutes)](https://youtu.be/ntKn5TPHHAk)
+* [3.1: Introduction to Session 3 - What is Machine Learning?](https://youtu.be/LvIa0-ZKCrc)
+
+Read: 
+* [A 'Brief' History of Neural Nets and Deep Learning](http://www.andreykurenkov.com/writing/ai/a-brief-history-of-neural-nets-and-deep-learning/)
+* [Nature of Code Chapter 10. Neural Networks](https://natureofcode.com/book/chapter-10-neural-networks/)
+* [A Quick Introduction to Neural Networks](https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/)
+* [Nature of Code Intelligence and learning - Week 4 Neural Networks](https://github.com/nature-of-code/NOC-S17-2-Intelligence-Learning/blob/master/week4-neural-networks/README.md)
+* [A Visual and Interactive Guide to the Basics of Neural Networks (really great interactive)](http://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+* [Calculate the Decision Boundary of a Single Perceptron - Visualizing Linear Separability](https://medium.com/@thomascountz/calculate-the-decision-boundary-of-a-single-perceptron-visualizing-linear-separability-c4d77099ef38)
+
+## Datasets and Scraping
+
+What are datasets? How are they used?
+
+Image Datasets:
+
+* [MNIST](http://yann.lecun.com/exdb/mnist/)
+* [Imagenet](http://www.image-net.org/)
+* [Caltech 256](http://www.vision.caltech.edu/Image_Datasets/Caltech256/%29%C2%A0)
+
+Recommendation Systems:
+
+* [Jester](http://www.ieor.berkeley.edu/~goldberg/jester-data/)
+* [Netflix](http://www.netflixprize.com/)
+
+Music:
+
+* [Million Song dataset](http://labrosa.ee.columbia.edu/millionsong/)
+
+More [here](http://deeplearning.net/datasets/)
+
+Other interesting datasets:
+
+* [Macauly Library](https://www.macaulaylibrary.org/)
+* [Project Gutenberg](https://www.gutenberg.org/)
+* [Ebony Magazine Archive](https://www.theatlantic.com/entertainment/archive/2019/07/ebony-magazine-archives-sold-nmaahc-getty/595171/)
+* [Watercolor World](https://www.watercolourworld.org/)
+* [Filmgrab](https://film-grab.com/)
+
+## Scraping datasets
+
+Can't find a way to download what you want? First try seeing if anyone else has downloaded it yet. Is there a download functionality? Try contacting someone and seeing if they'll share the data.
+
+[Is scraping legal?](https://www.theverge.com/2019/9/10/20859399/linkedin-hiq-data-scraping-cfaa-lawsuit-ninth-circuit-ruling)
+
+You still need to keep copyright in mind - you could violate copyright by redisplaying content.
+
 ## Class 3 - 11/13
 
 ## Vectors and classification

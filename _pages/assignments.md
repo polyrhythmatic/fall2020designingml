@@ -7,6 +7,13 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Week 4 (due 12/4)
+
+* Read
+  * [Excavating AI](https://www.excavating.ai/)
+  * [Dimensionality-Reduction Algorithms
+for Progressive Visual Analytics](https://www.researchgate.net/publication/331314858_Dimensionality-Reduction_Algorithms_for_Progressive_Visual_Analytics) - just summary and introduction
+
 ## Week 3 (due 11/20)
 
 * Read
