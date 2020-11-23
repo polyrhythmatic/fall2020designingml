@@ -14,6 +14,33 @@ For all readings unless otherwise noted, please write down two non "yes or no" q
   * [Dimensionality-Reduction Algorithms
 for Progressive Visual Analytics](https://www.researchgate.net/publication/331314858_Dimensionality-Reduction_Algorithms_for_Progressive_Visual_Analytics) - just summary and introduction
 
+The Final (due 12/18)
+
+Choose an image or text data set to explore. This can be an existing API or data set such as a digital museum collection, but it could also be a data set of your own creation such as a website that you scrape or collection of your own photos. Using the tools we covered so far, create an analysis of the visual topology of this collection. When using machine learning to look with a macro lens, what patterns emerge? What narratives are newly exposed with these techniques?
+
+Be sure to collect at least 500-600 data points (images, paragraphs, articles, reviews etc) in order to have enough to analyze. The final deliverable for this class will be a series of images, along with a quick in-class presentation. If you are comfortable with web development, please feel free to create something larger for the midterm.
+
+Presenting the project: 
+
+If there are no group projects then we will have less than 10 minutes per person to present, "pecha kucha" style. I will be expecting a fairly concrete and succinct presentation of about 5 minutes.
+
+Metrics for grading:
+* 25% - Originality of concept - Does the project explore an original and novel concept?
+* 25% - Fit and finish - Is the project finished? Was there clearly thought put into this?
+* 25% - Theme - Did the project follow the prompt?
+* 25% - Presentation - Is the presentation coherent and thoughtful?
+
+Due 12/18:
+
+Before next class, email me:
+
+* One paragraph describing what your project explore
+* If applicable, a link to the data set you will be using
+* The name of the data set you will be using
+* Is it a group project? Who is involved, and what part will they take?
+* If desired, sign up for office hours to discuss
+
+
 ## Week 3 (due 11/20)
 
 * Read
