@@ -7,6 +7,10 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
+## Week 4 (due 12/11)
+
+No assignments this week - please work on your final
+
 ## Week 4 (due 12/4)
 
 * Read
