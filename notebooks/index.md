@@ -20,3 +20,5 @@ permalink: /notebooks
 <!-- * [Week 10 - Audio](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Audio.ipynb) -->
 
 <!-- * [Week 12 - Text](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Bag%20of%20Words%20and%20Doc2Vec.ipynb) -->
+
+* [Week 5 - Text](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Bag%20of%20Words%20and%20Doc2Vec.ipynb)

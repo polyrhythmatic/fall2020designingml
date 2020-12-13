@@ -5,6 +5,10 @@ permalink: /classes
 
 # Classes
 
+## Class 6 - 12/11
+
+Code from this class can be found [here](https://github.com/channelstudio/fall2020designingml/tree/master/web_examples)
+
 ## Class 5 - 12/5
 
 ## Semantic organization of text

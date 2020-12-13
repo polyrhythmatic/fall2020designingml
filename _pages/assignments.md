@@ -7,7 +7,11 @@ permalink: /assignments
 
 For all readings unless otherwise noted, please write down two non "yes or no" questions and type them into the Google doc I've shared with you. Be prepared to discuss the questions/readings in class.
 
-## Week 4 (due 12/11)
+## Week 6 (due 12/18)
+
+No assignments this week - please work on your final
+
+## Week 5 (due 12/11)
 
 No assignments this week - please work on your final
 
@@ -33,8 +37,6 @@ Metrics for grading:
 * 25% - Fit and finish - Is the project finished? Was there clearly thought put into this?
 * 25% - Theme - Did the project follow the prompt?
 * 25% - Presentation - Is the presentation coherent and thoughtful?
-
-Due 12/18:
 
 Before next class, email me:
 
