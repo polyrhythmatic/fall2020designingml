@@ -17,8 +17,8 @@ permalink: /notebooks
 
 * [Week 4 - Scraping](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Scraping.ipynb)
 
-<!-- * [Week 10 - Audio](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Audio.ipynb) -->
-
-<!-- * [Week 12 - Text](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Bag%20of%20Words%20and%20Doc2Vec.ipynb) -->
-
 * [Week 5 - Text](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Bag%20of%20Words%20and%20Doc2Vec.ipynb)
+
+* [Extra - Resizing Images](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Resizing%20Images.ipynb)
+
+* [Extra - Audio](https://github.com/channelstudio/fall2020designingml/blob/master/notebooks/Audio.ipynb) -->

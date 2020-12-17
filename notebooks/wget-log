@@ -1,0 +1,11 @@
+--2020-12-16 20:19:57--  http://vision.stanford.edu/aditya86/ImageNetDogs/images/n02088094-Afghan_hound/n02088094_1357.jpg
+Resolving vision.stanford.edu (vision.stanford.edu)... 171.64.68.10
+Connecting to vision.stanford.edu (vision.stanford.edu)|171.64.68.10|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51123 (50K) [image/jpeg]
+Saving to: ‘./dogs/n02088094_1357.jpg’
+
+n02088094_1357.jpg   75%[==============>     ]  37.89K  73.4KB/s               n02088094_1357.jpg  100%[===================>]  49.92K  96.6KB/s    in 0.5s    
+
+2020-12-16 20:19:57 (96.6 KB/s) - ‘./dogs/n02088094_1357.jpg’ saved [51123/51123]
+
